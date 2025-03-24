@@ -11,6 +11,6 @@ $(document).on("change", "input[type=checkbox]", function () {
     $(this).parent().css("color", "#ccc");
   } else {
     $(this).parent().css("text-decoration", "none");
-    $(this).parent().css("color", "#ccc");
+    $(this).parent().css("color", "#000");
   }
 });
